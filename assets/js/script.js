@@ -4,7 +4,7 @@ const img2 = require("../../assets/img/grill.jpg");
 const createEl = require("./domMethods");
 
 
-
+$(document).ready(function() {
   // First image is hard coded in index.html
   const carouselSlides = [
     {
@@ -59,6 +59,8 @@ const createEl = require("./domMethods");
     const modalEl = document.querySelector(".modal-content");
     const modalBodyEl = document.querySelector(".modal-body");
     const modalFooterEl = document.querySelector(".modal-footer");
+
+});
 
 
 
